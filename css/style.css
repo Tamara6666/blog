@@ -41,7 +41,13 @@ p {
 }
 p a,
 li a {
-  text-decoration: underline;
+  text-decoration: none;
+}
+p a:hover,
+li a:hover,
+p a:focus,
+li a:focus {
+  text-decoration: none;
 }
 h1,
 h2,
@@ -267,7 +273,7 @@ hr.small {
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
   color: #0085a1;
-  text-decoration: underline;
+  text-decoration: none;
 }
 @media only screen and (min-width: 768px) {
   .post-preview > a > .post-title {
